@@ -6,4 +6,3 @@ node_modules/
 public/
 .deploy*/
 source/_posts/blog
-themes/*/.git/
