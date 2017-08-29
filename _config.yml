@@ -27,6 +27,18 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+# Markdown
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  autolink: true
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -34,7 +46,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -80,3 +92,4 @@ theme: hipaper
 deploy:
   type: git
   repo: git@github.com:bougou/bougou.github.io
+

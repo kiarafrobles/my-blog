@@ -55,7 +55,7 @@ h6 {
 
 /* Links */
 a {
-	color: #1fa0ae;
+	/*color: #1fa0ae;*/
 	outline: none;
 	-webkit-transition: all 0.14s ease 0s; 
 	   -moz-transition: all 0.14s ease 0s; 
