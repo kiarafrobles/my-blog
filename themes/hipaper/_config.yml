@@ -13,7 +13,7 @@ rss: /atom.xml
 
 
 # Set default keywords (Use a comma to separate)
-keywords: ""
+keywords: "bougou,blog,note"
 
 # Put your favicon.ico into `hexo-site/themes/hipaper/source/` directory.
 favicon: css/images/favicon.ico
@@ -46,9 +46,9 @@ sidebar: right
 widgets:
 - search
 - social
-- recent_posts
-- category
-- tag
+  #- recent_posts
+  #- category
+  #- tag
 - tagcloud
 - archive
 
